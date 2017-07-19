@@ -1,10 +1,6 @@
 <aura:component controller="AccountController">
    <!--hi -->
-<<<<<<< HEAD
-   <!--   hi1-->
-=======
-   <!-- hi2 -->
->>>>>>> 2dcfa9220524be65c055ab6d4bd870233f92d05a
+   
    <aura:attribute name="accounts" type="Account[]"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <ul>

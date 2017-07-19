@@ -1,0 +1,5 @@
+<aura:component>
+<aura:handler name="sampleComponentEvent" event="c:myevent"
+    action="{!c.handleComponentEvent}"/>
+
+</aura:component>	

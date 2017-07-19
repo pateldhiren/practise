@@ -1,0 +1,5 @@
+<aura:component>
+<aura:registerEvent name="sampleComponentEvent" type="c:myevent"/>
+
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+</aura:component>	

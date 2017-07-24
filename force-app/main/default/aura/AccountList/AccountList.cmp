@@ -1,5 +1,9 @@
 <aura:component controller="AccountController">
+
 <!--it's master -->
+
+<!--It's pullTest -->
+
     <aura:attribute name="accounts" type="Account[]"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <ul>
